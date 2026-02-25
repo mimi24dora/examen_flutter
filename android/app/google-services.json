@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "357442872116",
+    "project_id": "rappel-medicaments",
+    "storage_bucket": "rappel-medicaments.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:357442872116:android:ab46c4831fc33ce7efbb61",
+        "android_client_info": {
+          "package_name": "com.example.rappel_medicaments_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "357442872116-fnp5sqdl0sfcne7fesaln2n8u20rluej.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rappel_medicaments_app",
+            "certificate_hash": "f560d24ceaecb1beebfabb728565c9d69386224f"
+          }
+        },
+        {
+          "client_id": "357442872116-rq8rg1rt93huukpdk4jouvdv7fqshov6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4oFy3Tjn-tK633fJZCHWSnfjSFP50UYg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "357442872116-rq8rg1rt93huukpdk4jouvdv7fqshov6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
