@@ -3,6 +3,10 @@
 
 Ce projet a pour rôle d'aider les personnes à la prise régulière de leurs médicaments grâce à des notifications.
 
+Les principales fonctionnalités sont : 
+- L'ajout d'un médicament
+- Le réglage de l'heure et du jour pour activer les notifications.
+
 
 A new Flutter project.
 
