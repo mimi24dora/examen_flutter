@@ -42,7 +42,7 @@ class MedicationApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Rappel Médicaments',
+      title: 'DAWA',
       theme: AppTheme.lightTheme,
       home: const AuthWrapper(),
     );

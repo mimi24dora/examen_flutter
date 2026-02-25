@@ -165,7 +165,7 @@ class _AddMedicationViewState extends State<AddMedicationView> {
                         name: name,
                         dosage: dosage,
                         frequency: "Ponctuel",
-                        timeToTake: selectedTime.format(context),
+                        timeToTake: "${selectedTime.hour}:${selectedTime.minute.toString().padLeft(2, '0')}",
                         dateToTake: "${selectedDate.year}-${selectedDate.month}-${selectedDate.day}",
                         userId: userId,
                       );
