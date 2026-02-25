@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import '../services/auth_service.dart';
 import '../views/home_view.dart';
-import 'package:firebase_auth/firebase_auth.dart'; // Ajoute cet import
+import 'package:firebase_auth/firebase_auth.dart'; // Ajouter cet import
 
 class AuthController extends ChangeNotifier {
   final AuthService _authService = AuthService();
@@ -14,7 +14,7 @@ class AuthController extends ChangeNotifier {
     notifyListeners();
   }
 
-  // --- MÉTHODE DÉCONNEXION RÉPARÉE (VERSION FINALE) ---
+  // --- MÉTHODE DÉCONNEXION RÉPARÉE  ---
   Future<void> signOut(BuildContext context) async {
     try {
       await _authService.signOut();
