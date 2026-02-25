@@ -7,9 +7,9 @@ class Medication {
   String dateToTake; // Nouveau champ pour la date
   String userId;
   bool isTaken; 
-  DateTime? lastTaken;
+  DateTime? lastTaken; // date optionnelle
 
-  Medication({
+  Medication({  // créer un objet Medication
     required this.id,
     required this.name,
     required this.dosage,
@@ -21,7 +21,7 @@ class Medication {
     this.lastTaken,
   });
 
-  Map<String, dynamic> toMap() {
+  Map<String, dynamic> toMap() { // la fonction la plus importante, Elle transforme l’objet en format base de données.
     return {
       'name': name,
       'dosage': dosage,
@@ -35,7 +35,7 @@ class Medication {
   }
 
   factory Medication.fromFirestore(Map<String, dynamic> firestore, String id) {
-    return Medication(
+    return Medication( // inverse de tomap, Parce qu’on construit un objet à partir de données externes
       id: id,
       name: firestore['name'] ?? '',
       dosage: firestore['dosage'] ?? '',
