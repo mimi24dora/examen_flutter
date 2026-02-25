@@ -1,5 +1,9 @@
 # rappel_medicaments_app
 
+
+Ce projet a pour rôle d'aider les personnes à la prise régulière de leurs médicaments grâce à des notifications.
+
+
 A new Flutter project.
 
 ## Getting Started
